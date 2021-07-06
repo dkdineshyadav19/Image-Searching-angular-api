@@ -1,0 +1,88 @@
+img{
+        height: 55vh;
+}
+.main{
+    overflow-y:hidden;
+    overflow-x: scroll;
+    white-space: nowrap;
+    height: 11rem;
+    padding: 5px;
+    background-color:#111;
+}
+.main::-webkit-scrollbar {
+    display: none;
+  }
+  .main {
+    -ms-overflow-style: none;  
+    scrollbar-width: none;
+  }
+  .card{
+      height: 10rem;
+      width: 19rem;
+      margin-left: 1rem;
+      justify-content: center;
+      align-items: center;
+      background-color: #111;
+  }
+  .card:first-child 
+  {
+      margin-left: 0px;
+  }
+  .card:nth-child(1)
+  {
+        background-image: url(https://images.unsplash.com/photo-1496065187959-7f07b8353c55?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+  }
+  .card:nth-child(2)
+  {
+        background-image: url(https://images.unsplash.com/photo-1453805622064-de9796753c22?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+  }
+  .card:nth-child(3)
+  {
+        background-image: url(https://images.unsplash.com/photo-1473448912268-2022ce9509d8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=725&q=80);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+  }
+  .card:nth-child(4)
+  {
+        background-image: url(https://images.unsplash.com/photo-1519335337423-a3357c2cd12e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=668&q=80);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+  }
+  .card:nth-child(5)
+  {
+        background-image: url(https://images.unsplash.com/photo-1606894436761-7a742916220a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTB8fGNhcnRvb258ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+  }
+  .overlay{
+      width:98%;
+      height:98%;
+      background-color:rgb(29, 27, 27);
+      opacity:0.6;
+      cursor: pointer;
+  }
+  .overlay p{
+      font-size: 1.5rem;
+  }
+.pics{
+    height: 50vh;
+    width: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.pics {
+    max-width: 98vw;
+}
+.footer a{
+color:deepskyblue;
+}
